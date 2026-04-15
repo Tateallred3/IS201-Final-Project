@@ -1,0 +1,78 @@
+/* Tate Allred - IS201 Executive Scratch Stylesheet */
+
+body {
+    background-color: #f4f7f6; /* Requirement: Custom background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Requirement: Font family */
+    color: #333; /* Requirement: Font color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#main-wrapper { /* Div 1: Main Positioning Container */
+    max-width: 950px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-top: 10px solid #1e4ea1; 
+}
+
+.content-section { /* Div 2: Styling blocks */
+    margin-bottom: 40px;
+    padding: 25px;
+    background: #fdfdfd;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.data-viz-container { /* Div 3: Styling blocks for Tableau/Video */
+    text-align: center;
+    padding: 30px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+h1, h3 {
+    color: #1e4ea1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.25rem;
+    color: #444;
+    border-left: 5px solid #1e4ea1;
+    padding: 15px 25px;
+    background: #f0f4f8;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #1e4ea1;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.investment-note {
+    background: #eef4ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 4px solid #1e4ea1;
+}
+
+ol li {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+ul li {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
